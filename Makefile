@@ -1,2 +1,2 @@
 reset:
-	
+	git clean -fdx
