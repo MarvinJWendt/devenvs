@@ -1,0 +1,9 @@
+services:
+  go-devenv:
+    image: golang:latest
+    volumes:
+      - .:/devenv
+    working_dir: /devenv
+    command: go run main.go
+    tty: true
+    stdin_open: true
